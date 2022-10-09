@@ -43,6 +43,7 @@ class App extends Component {
       <div className="container">
         <div className="contact">
           <h3 className='h3' > Contact us</h3>
+            <h3>its new updated</h3>
           <div className=' text-center' >
 
             <label htmlFor='email' >email</label>
@@ -52,6 +53,7 @@ class App extends Component {
               id="email" />
 
             <div className='form-check' >
+             
               <input className='form-check-input' type="checkbox"
                 value={isAgree}
                 onChange={this.handleISAgree}
